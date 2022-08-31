@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: url(https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+            background-size: cover;
+
+        }
+
+        .forcastDiv {
+            display: flex;
+            /* border: 1px solid black; */
+            overflow-x: scroll;
+            -ms-overflow-style: none;
+            /* IE and Edge */
+            scrollbar-width: none;
+            /* Firefox */
+        }
+
+        .forcastDiv::-webkit-scrollbar {
+            display: none;
+            /* chrome */
+        }
+
+        .forcastDiv>.forcastCard {
+            background: rgba(57, 161, 135, 0.15);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(10.5px);
+            -webkit-backdrop-filter: blur(10.5px);
+            border-radius: 10px;
+            border: 1px solid rgba(255, 255, 255, 0.18);
+
+            height: 200px;
+            margin: 15px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+        }
+
+        .forcastDiv>.forcastCard>.day {
+            border: 1px solid black;
+            background-color: rgba(57, 161, 135, 0.15);
+            border-radius: 5px;
+            font-size: 20px;
+            width: fit-content;
+            padding: 2px;
+            margin-top: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="forcastDiv">
+
+        <!-- <div class="forcastCard">
+            <div class="day">MON</div>
+            <img src="https://icons-for-free.com/iconfiles/png/512/clouds+rain+rainy+weather+icon-1320196492721656738.png"
+                height="100px" alt="">
+            <div>Min: 20</div>
+            <div>Max: 40</div>
+        </div> -->
+
+
+
+
+    </div>
+</body>
+
+</html>
